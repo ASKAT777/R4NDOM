@@ -1,12 +1,16 @@
-import os
-os.system("clear")
-
-logo = ("""
-\33[32;1m           ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-\33[32;1m           ┃\33[34;1m TOOLS NAME => ASKAT_R4NDOM              ┃
-\33[32;1m           ┃\33[32;1m OWNER NAME => ASKAT MRIDHA             ┃
-\33[32;1m           ┃\33[35;1m FACEBOOK   => ASKAT MRIDHA          ┃
-\33[32;1m           ┃\33[31;1m      SORRY!  TOOL'S IS OFFED BY ASKAT       ┃
-\33[32;1m           ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
-	
-	print("SORRY TOOLS OFF KORTE BADDHO HOLAM ASOLE BAD REVIEW PAISI😒")
+import os,time,platform
+os.system('clear')
+print('\n\n \033[1;91m[\033[1;92m✔\033[1;91m]\033[1;93m TOOL IS OFF..........\n')
+os.system('git pull')
+bit = platform.architecture()[0]
+if bit=='64bit':
+    print("\n \033[1;91m[\033[1;92m✔\033[1;91m]\033[1;92m TOOL IS OFF \033[1;91m64\033[1;92m .....")
+    time.sleep(2)
+    import RM64
+elif bit=='32bit':
+    print("\n \033[1;91m[\033[1;92m✔\033[1;91m]\033[1;92m TOOLS IS OFF \033[1;91m32\033[1;92m .....")
+    time.sleep(2)
+    import RM32
+else:
+    print('\033[1;31m[\033[1;92m×\033[1;91m] TOOLS IS OFF !!!!!')
+ 
